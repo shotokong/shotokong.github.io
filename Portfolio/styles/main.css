@@ -1,0 +1,48 @@
+/*
+Creator: Kenneth Rosales
+Date Created: April 9th 2019
+Date Last Modified:
+*/
+body {
+  background-color: #fef9ff;
+  font-family: arial, helvetica, sans-serif;
+  color: #0d1f2d
+}
+header, footer {
+  background-color: #5b7d87;
+  color: #fef9ff;
+  height: 100px;
+  text-align: center;
+  padding: 30px 10px 20px 10px;
+}
+h1{
+  font-size: 2.5em;
+}
+caption {
+font-weight: bold;
+font-size: 1.2em;
+margin-bottom: 8px;
+}
+table, th, td {
+border: 1px solid #0d1f2d;
+border-collapse: collapse;
+padding: 5px 10px;
+}
+table {
+width: 90%;
+margin: auto;
+}
+tr {
+height: 30px;
+}
+th{
+background-color: #546a7b;
+color: #f2eded;
+}
+tr:nth-child(odd) {
+background-color: #e4c3ad;
+}
+nav {
+  border-top: 3px dashed #546a7b;
+  margin-top: 4px;
+}
