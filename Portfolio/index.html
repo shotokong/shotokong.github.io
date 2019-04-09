@@ -10,8 +10,29 @@ Most Recent Revision:
   <title> Kenneth's Portfolio </title>
   <link href="teststyles.css" rel"stylesheet" type="text/css"/>
 <style>
-header {
-  background-color: darkgray;
+caption {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+table, th, td {
+  border: 1px solid #0d1f2d;
+  border-collapse: collapse;
+  padding: 5px 10px;
+}
+table {
+  width: 90%;
+  margin: auto;
+}
+tr {
+  height: 30px;
+}
+th{
+  background-color: #546a7b;
+  color: #f2eded;
+}
+tr:nth-child(odd) {
+  background-color: #e4c3ad;
 }
 
 
@@ -45,14 +66,20 @@ header {
 <article id="experience">
         <h2><em> Past Experiences</em></h2>
         <img src="images/MedicalBilling.jpg"/>
+
+
+
+
           <table>
             <caption> Employment History</caption>
+            <thead>
 <tr>
         <th>Work and Education</th>
         <th>Title</th>
         <th>Company</th>
 </tr>
-
+</thead>
+<tbody>
 <tr>
         <td>2017-2018</td>
         <td>Intern</td>
@@ -64,7 +91,7 @@ header {
         <td>Student</td>
         <td>Laguardia Community College<td>
 </tr>
-
+</tbody>
 </table>
 
 </article>
