@@ -98,12 +98,12 @@ textarea {
     resize: none;
 }
 .clear-float{
-  clear:both
+  clear:both;
 }
 article img{
   float: left;
 }
-.right-content{
+.right-content {
   float:left;
 }
 article {
