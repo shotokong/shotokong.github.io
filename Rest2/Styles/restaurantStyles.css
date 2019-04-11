@@ -4,3 +4,6 @@ header, footer {
 body {
   background-color: #EFE7E7;
 }
+h1, footer {
+  color: white
+}
