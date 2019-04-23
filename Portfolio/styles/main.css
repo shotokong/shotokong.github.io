@@ -4,19 +4,20 @@ Date Created: April 9th 2019
 Date Last Modified:
 */
 body {
-  background-color: #fef9ff;
+  background-color: white;
   font-family: arial, helvetica, sans-serif;
-  color: #0d1f2d
+  color: black
   max-width: 900px;
   margin:0 auto;
 }
+
+
 header, footer {
-  background-color: #5b7d87;
+  background-color: brown;
   color: #fef9ff;
-  height: 100px;
-  text-align: center;
-  padding: 30px 10px 20px 10px;
+
 }
+
 h1{
   font-size: 2.5em;
 }
@@ -55,7 +56,7 @@ table {
             clear:both;
         }
 
-        article img {
+        /article img {
             float:left;
         }
 
@@ -66,26 +67,20 @@ table {
         article {
             margin-bottom: 16px;
         }
+
   nav a {
-      background-color: #5b7d87;
+      background-color: ;
       color: #fef9ff;
-      padding: 8px;
-      border: thin solid #0d1f2d;
-      text-decoration: none;
-      text-align: center;
-      display: block;
-      margin: 20px 20px;
-      width: 100px;
-      float:left;
+
   }
 
+/*
   nav a:visited {
       color: #e4c3ad;
     }
-
+    */
   nav a:hover {
-  background-color: #fef9ff;
-              color: #5b7d87;
+              color: white;
   }
 
   nav a:active {
