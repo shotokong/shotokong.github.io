@@ -17,7 +17,9 @@
 
 
         <title>Contact</title>
+<script type="text/JavaScript" src="ContactRest.js"></script>
         <link href="Styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+
     </head>
 
     <body>
@@ -46,13 +48,12 @@
         </nav>
 
         <h2>Contact Request</h2>
-        <form action="submit.html" method="POST">
-
+         <form  onclick="return false;""verify();" >
           <label for="Kenneth">Name:</label> <br/r>
-          <input type="text" id="Kenneth" name="Kenneth"> <br />
+          <input type="text" id="name" name="name"> <br />
 
           <label for="lastName">Address:</label><br />
-          <input type="text" id="lastName" name="lastName"> <br />
+          <input type="text" id="address" name="addy"> <br />
 
           <label for="contact">How did you hear about us:</label><br />
           <select id="contact" name="contact">
@@ -80,9 +81,9 @@
       <input type="checkbox" name="foodchoices" value="Tamales">Tamales
       <input type="checkbox" name="foodchoices" value="Yuca">Yuca
       <input type="checkbox" name="foodchoices" value="Arroz">Arroz<br>
-      <input type="submit" value="Submit"/>
+      <input type="submit" value="Submit">
 
-
+</form>
   <footer>
           <hr />
           <center><p> 9601 Metro, Flushing, NY 11375<p>
