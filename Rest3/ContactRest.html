@@ -17,9 +17,9 @@
 
 
         <title>Contact</title>
-<script type="text/JavaScript" src="ContactRest.js"></script>
-        <link href="Styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
 
+        <link href="Styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+<script type="text/JavaScript" src="ContactRest.js"></script>
     </head>
 
     <body>
@@ -48,7 +48,7 @@
         </nav>
 
         <h2>Contact Request</h2>
-        <form name="contact" onsubmit="return verify();">
+        <form name="contact" onsubmit="verify();">
           <label for="name">Name:</label> <br/r>
           <input type="text" id="name" name="name"> <br />
 
@@ -81,7 +81,7 @@
       <input type="checkbox" name="foodchoices" value="Tamales">Tamales
       <input type="checkbox" name="foodchoices" value="Yuca">Yuca
       <input type="checkbox" name="foodchoices" value="Arroz">Arroz<br>
-      <input type="submit" value="Submit">
+      <input type="submit" id="submitButton">
 
 </form>
   <footer>
